@@ -35,3 +35,11 @@ anywhen, anywhere.. You want watching the movie when this app recommended things
     1. CommonBtn을 현재 디바이스 widh의 1/3 크기로 만든다.
     2. CommonBtn을 본인의 스타일에 맞춰 이쁘게 만든다.
 </pre>
+
+[12-02]
+
+<pre>
+    새로운 expo 프로젝트를 생성해서 movie -> upcoming의 title을 화면에 보여주세요.
+    git repository URL을 제출해주시면 됩니다.
+    12월 04일 까지 제출
+</pre>
