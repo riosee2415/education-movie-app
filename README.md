@@ -21,6 +21,8 @@ anywhen, anywhere.. You want watching the movie when this app recommended things
 
 - 401 error : axios version 0.19.. 일 경우 || API_KEY가 잘못되었을 경우
 
+- map 사용시 unique key 관련 경고가 발생되면 => 최상단 컴포넌트에게 key값을 부여한다.
+
 ## USE API
 
 - moviedb.org

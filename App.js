@@ -43,7 +43,11 @@ class App extends React.Component {
         </View>
 
         {loading ? (
-          viewPopular.map(movie => <Text>{movie.title}</Text>)
+          viewPopular.map(movie => (
+            <View key={movie.id}>
+              <Text>{movie.title}</Text>
+            </View>
+          ))
         ) : (
           <Text>Loading ... </Text>
         )}
