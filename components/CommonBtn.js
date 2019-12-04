@@ -15,7 +15,7 @@ class CommonBtn extends React.Component {
 
   render() {
     return (
-      <TouchableOpacity style={styles.btn}>
+      <TouchableOpacity onPress={this.props.action} style={styles.btn}>
         <Text style={styles.txt}>{this.props.children}</Text>
       </TouchableOpacity>
     );
